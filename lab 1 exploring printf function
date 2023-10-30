@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+int x = 5; //Basic
+int y = 3;
+//Assignment
+printf("%d\n", x + y); 
+//Relational and Logical
+printf("%d", x > 3 && y < 10); 
+}
