@@ -1,0 +1,15 @@
+#include <stdio.h>
+void myFunction(){
+printf("i got executed");}
+
+int main(){
+myFunction();
+return 0;
+}
+
+int mysum(int a,int b){
+return a+b;}
+
+int main(){
+ int ans = mysum(3,4 );
+ printf("the sum is %d",ans);}
