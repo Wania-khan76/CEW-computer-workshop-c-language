@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(){
+    int time=30;
+    (time <18)? printf(" good morning"): printf(" evening");
+}
