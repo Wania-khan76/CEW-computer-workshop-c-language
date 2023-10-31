@@ -1,0 +1,14 @@
+//2. Write a C program that takes the height and width of a rectangle as an input from user 
+and compute the perimeter and area of a rectangle.
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    int length,width;
+    printf("Enter the height of rectangle: ");
+    scanf("%d",&length);
+    printf("Enter the width of rectangle: ");
+    scanf("%d",&width);
+    printf("THE PERIMETER OF RECTANGLE IS : %d\n",length*width);
+    printf("THE Area OF RECTANGLE IS : %d\n",2*(length+width));
+}
+
