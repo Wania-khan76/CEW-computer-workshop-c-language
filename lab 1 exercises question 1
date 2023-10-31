@@ -1,0 +1,19 @@
+//Write a C program that accepts an employee's ID, total worked hours in a month and 
+the amount received per hour. Print the ID and salary (with two decimal places) of the 
+employee for a particular month
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int id;
+    float workedhours,amount;
+    printf("enter Id of employee:");
+    scanf("%d",&id);
+    printf("enter worked hours of employee:");
+    scanf("%f",&id);
+    printf("enter amount per month of employee:");
+    scanf("%f",&id);
+    printf(" The Id of Employee is %d with worked hours %2f and its total salary is %2f/=",id,workedhours,workedhours*amount);
+}
+
