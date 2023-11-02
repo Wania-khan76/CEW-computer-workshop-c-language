@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+
+
+    while(1){
+             printf("enter a: ");
+    scanf("%d",&a);
+    printf("enter b: ");
+    scanf("%d",&b);
+        if(((-5 < a && a < 5) ||(-5 < b && b < 5))){
+            int sum=0;
+            for (int i=1;i<11;i+=2){
+                printf("%d x %d =%d\n ",a+b,i,a+b*i);;
+                sum+=a+b*i;
+
+
+            }
+            printf(" sum is= %d ",sum);
+
+        }
+        else{
+            break;
+        }
+    }
+
+return 0;
+}
