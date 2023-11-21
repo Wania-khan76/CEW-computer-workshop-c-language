@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+struct car{
+char carname[500];
+char carcolour[500];
+int carmodel;
+};
+int main(){
+struct car Corolla;
+strcpy(Corolla.carname,"Corolla");
+strcpy(Corolla.carcolour,"Red");
+Corolla.carmodel=123;
+printf("Car name is : %s \n", Corolla.carname);
+printf("Car colour is : %s \n", Corolla.carcolour);
+printf("Car model  is : %d  \n", Corolla.carmodel);
+return 0;
+
+
+
+}
